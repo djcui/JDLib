@@ -1,0 +1,6 @@
+framework module Pods_JDLib_Example {
+  umbrella header "Pods-JDLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

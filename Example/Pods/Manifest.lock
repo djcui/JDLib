@@ -1,0 +1,24 @@
+PODS:
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - JDLib (0.1.0):
+    - CocoaAsyncSocket
+    - Protobuf (~> 3.0.0-beta-2)
+  - Protobuf (3.0.0-beta-4)
+
+DEPENDENCIES:
+  - JDLib (from `../`)
+
+EXTERNAL SOURCES:
+  JDLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  JDLib: fbb07edada0a67547264099198f8f45b83e7a5e8
+  Protobuf: ec704f0045f7a30e1686fbb3994f43f689a0021b
+
+PODFILE CHECKSUM: 76121bb0950985045d41c3cbf0965335036a43e5
+
+COCOAPODS: 1.0.1
