@@ -38,6 +38,8 @@
 #import "Timestamp.pbobjc.h"
 #import "Type.pbobjc.h"
 #import "Wrappers.pbobjc.h"
+#import "Request.pbobjc.h"
+#import "Response.pbobjc.h"
 
 FOUNDATION_EXPORT double ProtobufVersionNumber;
 FOUNDATION_EXPORT const unsigned char ProtobufVersionString[];

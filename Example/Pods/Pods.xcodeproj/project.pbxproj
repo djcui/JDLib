@@ -14,10 +14,10 @@
 		1997ABE29BECA97FB451D8E1FBD53901 /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D94701FF8C6F7BC52CECD578D674D0 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1A90ABA021631B72D864F3CB52280A8D /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = DB84C13E5BC31277882D4A7CB6941DAC /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1B661AF69A67168CD862F1FD9111FD37 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B06255AFB25AAFC735684F8D1C4EAA5 /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229E28621D51F90B007EAFCA /* Request.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E285E1D51F90B007EAFCA /* Request.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229E28631D51F90B007EAFCA /* Request.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E285F1D51F90B007EAFCA /* Request.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		229E28641D51F90B007EAFCA /* Response.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E28601D51F90B007EAFCA /* Response.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229E28651D51F90B007EAFCA /* Response.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E28611D51F90B007EAFCA /* Response.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229E28721D51FAAF007EAFCA /* Request.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E286E1D51FAAF007EAFCA /* Request.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229E28731D51FAAF007EAFCA /* Request.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E286F1D51FAAF007EAFCA /* Request.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229E28741D51FAAF007EAFCA /* Response.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E28701D51FAAF007EAFCA /* Response.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229E28751D51FAAF007EAFCA /* Response.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E28711D51FAAF007EAFCA /* Response.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		23CB08AFCA05CBF9CCE2BED51694BA53 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7145A05828ADC3F58CCDA4ABE9732229 /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2426F1EA4E9581C7003C95E62718B115 /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0F168A72168028E63EECF4C795313 /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		279BF38AECCDC12D64D4917C0679DCAF /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F129103D90E8FF1CE193E3A9C0C1ABD /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -156,10 +156,10 @@
 		1B9DD7879C258CE89D2762CD2A8E9784 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
 		1BCB6B1DCCE9EE43D5BCE97B81A58D25 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		1C80B8CD42011DD95AA7121A27ABDE64 /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
-		229E285E1D51F90B007EAFCA /* Request.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.pbobjc.h; sourceTree = "<group>"; };
-		229E285F1D51F90B007EAFCA /* Request.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.pbobjc.m; sourceTree = "<group>"; };
-		229E28601D51F90B007EAFCA /* Response.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.pbobjc.h; sourceTree = "<group>"; };
-		229E28611D51F90B007EAFCA /* Response.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.pbobjc.m; sourceTree = "<group>"; };
+		229E286E1D51FAAF007EAFCA /* Request.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Request.pbobjc.h; path = objectivec/google/protobuf/Request.pbobjc.h; sourceTree = "<group>"; };
+		229E286F1D51FAAF007EAFCA /* Request.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Request.pbobjc.m; path = objectivec/google/protobuf/Request.pbobjc.m; sourceTree = "<group>"; };
+		229E28701D51FAAF007EAFCA /* Response.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Response.pbobjc.h; path = objectivec/google/protobuf/Response.pbobjc.h; sourceTree = "<group>"; };
+		229E28711D51FAAF007EAFCA /* Response.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Response.pbobjc.m; path = objectivec/google/protobuf/Response.pbobjc.m; sourceTree = "<group>"; };
 		22FDED1CDA54919522F287B927D079EE /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
 		24171435F0FAE3CC2794858E91BA91FB /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
 		28A35940A18C960E41C3066F4AC1AD1E /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
@@ -339,10 +339,6 @@
 		3167823BC119D8E39DADE4CCAB7D58B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				229E285E1D51F90B007EAFCA /* Request.pbobjc.h */,
-				229E285F1D51F90B007EAFCA /* Request.pbobjc.m */,
-				229E28601D51F90B007EAFCA /* Response.pbobjc.h */,
-				229E28611D51F90B007EAFCA /* Response.pbobjc.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -379,6 +375,10 @@
 		531A97640142A8094A798EA516A9D44E /* Protobuf */ = {
 			isa = PBXGroup;
 			children = (
+				229E286E1D51FAAF007EAFCA /* Request.pbobjc.h */,
+				229E286F1D51FAAF007EAFCA /* Request.pbobjc.m */,
+				229E28701D51FAAF007EAFCA /* Response.pbobjc.h */,
+				229E28711D51FAAF007EAFCA /* Response.pbobjc.m */,
 				0B06255AFB25AAFC735684F8D1C4EAA5 /* Any.pbobjc.h */,
 				5CB5AF9F123AB9B00C10115DA4DFA691 /* Any.pbobjc.m */,
 				9A91418765B8118EA70B68684DE62880 /* Api.pbobjc.h */,
@@ -588,9 +588,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229E28641D51F90B007EAFCA /* Response.pbobjc.h in Headers */,
 				91EF7AFEE214A27952B547558AA75F53 /* JDLib-umbrella.h in Headers */,
-				229E28621D51F90B007EAFCA /* Request.pbobjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +650,8 @@
 				4217DB0869611B3E37EE4223945C3E8C /* Protobuf-umbrella.h in Headers */,
 				071F7263714206B64149074A53CFE4BC /* SourceContext.pbobjc.h in Headers */,
 				2BCBE057DF01FDDA86E49F4930632004 /* Struct.pbobjc.h in Headers */,
+				229E28741D51FAAF007EAFCA /* Response.pbobjc.h in Headers */,
+				229E28721D51FAAF007EAFCA /* Request.pbobjc.h in Headers */,
 				A8221FE62AA6D30E34D9A568D2FF3F42 /* Timestamp.pbobjc.h in Headers */,
 				63CAB0219AAD5DB02001CCF9526610ED /* Type.pbobjc.h in Headers */,
 				8450DCE6A984C22CB43977634E42A92D /* Wrappers.pbobjc.h in Headers */,
@@ -818,10 +818,12 @@
 				2426F1EA4E9581C7003C95E62718B115 /* Empty.pbobjc.m in Sources */,
 				014BBAB4E90DFD303368966F90AB61C9 /* FieldMask.pbobjc.m in Sources */,
 				734B1FC061EE00D02FDA677864896846 /* GPBArray.m in Sources */,
+				229E28751D51FAAF007EAFCA /* Response.pbobjc.m in Sources */,
 				8D6356497861FB8D585D1F500ED55411 /* GPBCodedInputStream.m in Sources */,
 				DE2313914905E3FD167D0D507B260622 /* GPBCodedOutputStream.m in Sources */,
 				BCC6CF551016742885EC5FFD5EF0FB29 /* GPBDescriptor.m in Sources */,
 				BD6492567343C45D8B7781A54BDABB42 /* GPBDictionary.m in Sources */,
+				229E28731D51FAAF007EAFCA /* Request.pbobjc.m in Sources */,
 				A41261D3AAB80C6E647925EA9EA11D1A /* GPBExtensionInternals.m in Sources */,
 				1A90ABA021631B72D864F3CB52280A8D /* GPBExtensionRegistry.m in Sources */,
 				E949F4B6B065E31EC8FDAFAD7DBFF293 /* GPBMessage.m in Sources */,
@@ -844,8 +846,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229E28651D51F90B007EAFCA /* Response.pbobjc.m in Sources */,
-				229E28631D51F90B007EAFCA /* Request.pbobjc.m in Sources */,
 				41F95EA88F53DFED7A3D7CC4F72AEEE6 /* JDLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
