@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JDLib_Example' do
+  pod 'JDLib', :path => '../'
+
+  target 'JDLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
