@@ -18,6 +18,8 @@
 		229E28731D51FAAF007EAFCA /* Request.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E286F1D51FAAF007EAFCA /* Request.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		229E28741D51FAAF007EAFCA /* Response.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E28701D51FAAF007EAFCA /* Response.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229E28751D51FAAF007EAFCA /* Response.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E28711D51FAAF007EAFCA /* Response.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229E28781D51FBF3007EAFCA /* djtest.h in Headers */ = {isa = PBXBuildFile; fileRef = 229E28761D51FBF3007EAFCA /* djtest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229E28791D51FBF3007EAFCA /* djtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E28771D51FBF3007EAFCA /* djtest.m */; };
 		23CB08AFCA05CBF9CCE2BED51694BA53 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7145A05828ADC3F58CCDA4ABE9732229 /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2426F1EA4E9581C7003C95E62718B115 /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0F168A72168028E63EECF4C795313 /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		279BF38AECCDC12D64D4917C0679DCAF /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F129103D90E8FF1CE193E3A9C0C1ABD /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,6 +162,8 @@
 		229E286F1D51FAAF007EAFCA /* Request.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Request.pbobjc.m; path = objectivec/google/protobuf/Request.pbobjc.m; sourceTree = "<group>"; };
 		229E28701D51FAAF007EAFCA /* Response.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Response.pbobjc.h; path = objectivec/google/protobuf/Response.pbobjc.h; sourceTree = "<group>"; };
 		229E28711D51FAAF007EAFCA /* Response.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Response.pbobjc.m; path = objectivec/google/protobuf/Response.pbobjc.m; sourceTree = "<group>"; };
+		229E28761D51FBF3007EAFCA /* djtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = djtest.h; sourceTree = "<group>"; };
+		229E28771D51FBF3007EAFCA /* djtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = djtest.m; sourceTree = "<group>"; };
 		22FDED1CDA54919522F287B927D079EE /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
 		24171435F0FAE3CC2794858E91BA91FB /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
 		28A35940A18C960E41C3066F4AC1AD1E /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
@@ -339,6 +343,8 @@
 		3167823BC119D8E39DADE4CCAB7D58B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				229E28761D51FBF3007EAFCA /* djtest.h */,
+				229E28771D51FBF3007EAFCA /* djtest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -654,6 +660,7 @@
 				229E28721D51FAAF007EAFCA /* Request.pbobjc.h in Headers */,
 				A8221FE62AA6D30E34D9A568D2FF3F42 /* Timestamp.pbobjc.h in Headers */,
 				63CAB0219AAD5DB02001CCF9526610ED /* Type.pbobjc.h in Headers */,
+				229E28781D51FBF3007EAFCA /* djtest.h in Headers */,
 				8450DCE6A984C22CB43977634E42A92D /* Wrappers.pbobjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -833,6 +840,7 @@
 				E819DD6576F7E740DF32FDC19E0D2FDF /* GPBUtilities.m in Sources */,
 				1997ABE29BECA97FB451D8E1FBD53901 /* GPBWellKnownTypes.m in Sources */,
 				E921F3CCC11FF17FC9921EA2508DB3F9 /* GPBWireFormat.m in Sources */,
+				229E28791D51FBF3007EAFCA /* djtest.m in Sources */,
 				99CF569C539559210F0C55C321C49A88 /* Protobuf-dummy.m in Sources */,
 				9F41884A20056FE368484DA0B0EC8C79 /* SourceContext.pbobjc.m in Sources */,
 				59BB4210F5FD3713A736C8FC7390DA9B /* Struct.pbobjc.m in Sources */,
